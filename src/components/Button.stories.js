@@ -16,22 +16,47 @@ Default.args = {
   button: {
     id: '1',
     title: 'My Button',
-    state: 'Button_Default',
     },
 };
 
-export const Hover = Template.bind({});
-Hover.args = {
+export const Default_Disabled = Template.bind({});
+Default_Disabled.args = {
   button: {
     ...Default.args.button,
-    state: 'Button_Hover',
+    disabled: 'disabled'
+    },
+};
+
+export const Secondary = Template.bind({});
+Secondary.args = {
+  button: {
+    ...Default.args.button,
+    state: 'secondary',
   },
 };
 
-export const Pressed = Template.bind({});
-Pressed.args = {
+export const Secondary_Disabled = Template.bind({});
+Secondary_Disabled.args = {
+  button: {
+    ...Secondary.args.button,
+    disabled: 'disabled',
+    },
+};
+
+export const Success = Template.bind({});
+Success.args = {
   button: {
     ...Default.args.button,
-    state: 'Button_Pressed',
+    state: 'success',
   },
 };
+
+export const Success_Disabled = Template.bind({});
+Success_Disabled.args = {
+  button: {
+    ...Success.args.button,
+    disabled: 'disabled',
+  },
+};
+
+

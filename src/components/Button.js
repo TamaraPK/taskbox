@@ -4,23 +4,23 @@
 import PropTypes from 'prop-types';
 import { Button } from 'primereact/button';
 
-export default function Task({ button: { id, title, state }, onArchiveTask, onPinTask }) {
+export default function Task({ button: { id, title, state, disabled } }) {
   return (
-    <Button label={title} />
+    <Button label={title} className={`${state ? 'p-button-' + state : ''} ${disabled ? 'p-disabled' : ''}`} />   
   );
 }
 
 Task.propTypes = {
   /** Composition of the task */
   button: PropTypes.shape({
-    /** Id of the task */
+    /** Id */
     id: PropTypes.string.isRequired,
-    /** Title of the task */
+    /** Title */
     title: PropTypes.string.isRequired,
-    /** Current state of the task */
-    state: PropTypes.string.isRequired,
+    /** Current state */
+    state: PropTypes.string,
+    /** Enable-disable flag */
+    disabled: PropTypes.string,
   }),
   /** Events */
-  onButtonHover: PropTypes.func,
-  onButtonPress: PropTypes.func,
 };

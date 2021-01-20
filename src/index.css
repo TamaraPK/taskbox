@@ -856,7 +856,7 @@
    flex-wrap: wrap;
    height: 3rem;
    width: 100%;
-   background: #e0eeee;
+   background: #f0f8ff;
    transition: all ease-out 150ms;
  }
  .list-item .title {
@@ -880,7 +880,7 @@
    display: inline-block;
    vertical-align: top;
    text-align: center;
-   color: #eee;
+   color: #7a8b8b;
  }
  .list-item .actions a:hover {
    color: #2cc5d2;
