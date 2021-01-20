@@ -1,6 +1,14 @@
 // .storybook/preview.js
 
+// PrimeReact Design Assets
+import 'primereact/resources/themes/saga-blue/theme.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
+
+// Your customized application CSS
 import '../src/index.css';
+
+
 
 // Configures Storybook to log the actions(onArchiveTask and onPinTask) in the UI.
 export const parameters = {

@@ -241,7 +241,7 @@
    font-style: 400;
    color: #333;
    font-size: 16px;
-   background-color: #26c6da;
+   background-color: #ffffff;
  }
  h1,
  h2,
@@ -856,7 +856,7 @@
    flex-wrap: wrap;
    height: 3rem;
    width: 100%;
-   background: white;
+   background: #e0eeee;
    transition: all ease-out 150ms;
  }
  .list-item .title {
