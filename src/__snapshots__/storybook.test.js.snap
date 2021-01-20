@@ -2,7 +2,7 @@
 
 exports[`Storyshots Button Default 1`] = `
 <button
-  className="p-button p-component"
+  className="p-button p-component  "
 >
   <span
     className="p-button-label p-c"
@@ -12,9 +12,9 @@ exports[`Storyshots Button Default 1`] = `
 </button>
 `;
 
-exports[`Storyshots Button Hover 1`] = `
+exports[`Storyshots Button Default Disabled 1`] = `
 <button
-  className="p-button p-component"
+  className="p-button p-component  p-disabled"
 >
   <span
     className="p-button-label p-c"
@@ -24,9 +24,45 @@ exports[`Storyshots Button Hover 1`] = `
 </button>
 `;
 
-exports[`Storyshots Button Pressed 1`] = `
+exports[`Storyshots Button Secondary 1`] = `
 <button
-  className="p-button p-component"
+  className="p-button p-component p-button-secondary "
+>
+  <span
+    className="p-button-label p-c"
+  >
+    My Button
+  </span>
+</button>
+`;
+
+exports[`Storyshots Button Secondary Disabled 1`] = `
+<button
+  className="p-button p-component p-button-secondary p-disabled"
+>
+  <span
+    className="p-button-label p-c"
+  >
+    My Button
+  </span>
+</button>
+`;
+
+exports[`Storyshots Button Success 1`] = `
+<button
+  className="p-button p-component p-button-success "
+>
+  <span
+    className="p-button-label p-c"
+  >
+    My Button
+  </span>
+</button>
+`;
+
+exports[`Storyshots Button Success Disabled 1`] = `
+<button
+  className="p-button p-component p-button-success p-disabled"
 >
   <span
     className="p-button-label p-c"
