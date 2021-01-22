@@ -72,6 +72,78 @@ exports[`Storyshots Button Success Disabled 1`] = `
 </button>
 `;
 
+exports[`Storyshots ButtonPK Default 1`] = `
+<button
+  className="p-button p-component p-4 mx-2 rounded-full text-white outline-none hover:opacity-75 cursor-pointer  "
+>
+  <span
+    className="p-button-label p-c"
+  >
+    My Button
+  </span>
+</button>
+`;
+
+exports[`Storyshots ButtonPK Default Disabled 1`] = `
+<button
+  className="p-button p-component p-4 mx-2 rounded-full text-white outline-none hover:opacity-75 cursor-pointer  p-disabled"
+>
+  <span
+    className="p-button-label p-c"
+  >
+    My Button
+  </span>
+</button>
+`;
+
+exports[`Storyshots ButtonPK Secondary 1`] = `
+<button
+  className="p-button p-component p-4 mx-2 rounded-full text-white outline-none hover:opacity-75 cursor-pointer p-button-secondary "
+>
+  <span
+    className="p-button-label p-c"
+  >
+    My Button
+  </span>
+</button>
+`;
+
+exports[`Storyshots ButtonPK Secondary Disabled 1`] = `
+<button
+  className="p-button p-component p-4 mx-2 rounded-full text-white outline-none hover:opacity-75 cursor-pointer p-button-secondary p-disabled"
+>
+  <span
+    className="p-button-label p-c"
+  >
+    My Button
+  </span>
+</button>
+`;
+
+exports[`Storyshots ButtonPK Success 1`] = `
+<button
+  className="p-button p-component p-4 mx-2 rounded-full text-white outline-none hover:opacity-75 cursor-pointer p-button-success "
+>
+  <span
+    className="p-button-label p-c"
+  >
+    My Button
+  </span>
+</button>
+`;
+
+exports[`Storyshots ButtonPK Success Disabled 1`] = `
+<button
+  className="p-button p-component p-4 mx-2 rounded-full text-white outline-none hover:opacity-75 cursor-pointer p-button-success p-disabled"
+>
+  <span
+    className="p-button-label p-c"
+  >
+    My Button
+  </span>
+</button>
+`;
+
 exports[`Storyshots InboxScreen Default 1`] = `
 <div
   className="page lists-show"
