@@ -1,8 +1,8 @@
-// src/components/Button.stories.js
+// src/components/ButtonPF.stories.js
 
 //import React from 'react';
 
-import Button from './Button';
+import Button from './ButtonPF';
 
 export default {
   component: Button,

@@ -4,14 +4,14 @@
 import PropTypes from 'prop-types';
 import { Button } from 'primereact/button';
 
-export default function Task({ button: { id, title, state, disabled } }) {
+export default function BottonPK({ button: { id, title, state, disabled } }) {
   return (
     <Button label={title} className={`p-4 mx-2 rounded-full text-white outline-none hover:opacity-75 cursor-pointer ${state ? 'p-button-' + state : ''} ${disabled ? 'p-disabled' : ''}`} />        
   );
 }
 
-Task.propTypes = {
-  /** Composition of the task */
+BottonPK.propTypes = {
+  /** Composition of the button */
   button: PropTypes.shape({
     /** Id */
     id: PropTypes.string.isRequired,
