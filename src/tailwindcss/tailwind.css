@@ -147936,10 +147936,10 @@ nav input[type="checkbox"]:checked + label{
     color: #66BB6A;
 }
 
-.datatable-style-demo .row-accessories {
-    background-color: rgba(0, 0, 0, 0.15) !important;
+.datatable-style-demo .outofstock > i {
+  font-size: 1.5em;
 }
 
-
-
-
+.row-danger{
+  background: #FFE4E1 !important;
+}
